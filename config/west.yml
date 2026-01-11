@@ -13,11 +13,11 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
     - name: prospector-zmk-module
       remote: prospector
-      revision: v2.1a
+      revision: v2.0.0
       path: modules/prospector-zmk-module
   self:
     path: config
